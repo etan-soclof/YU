@@ -1,0 +1,41 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: tk
+spec:
+  selector:
+    app: tk
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 5000
+---
+kind: Deployment
+apiVersion: apps/v1
+metadata:
+  name: tk
+  namespace: default
+  labels:
+    app: tk
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: tk
+  template:
+    metadata:
+      labels:
+        app: tk
+    spec:
+      containers:
+        - name: tk
+          image: 'etansoclof/tk:1.03'
+          command:
+            - sh
+            - '-c'
+            - echo Container 1 is Running ; sleep 3600
+          ports:
+            - containerPort: 5000
+              protocol: TCP
+      restartPolicy: Always
+

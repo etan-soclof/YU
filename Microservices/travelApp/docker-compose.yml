@@ -1,0 +1,53 @@
+version: "2"
+services:
+
+  redis:
+    image: redis:4-alpine
+    command: ["redis-server", "--appendonly", "yes"]
+    hostname: redis
+    volumes:
+      - redis-data:/data
+
+  rabbit:
+    image: rabbitmq:3-management
+    ports:
+      - "15672:15672"
+
+  bookings:
+    image: etansoclof/bookings:1.01
+    depends_on:
+      - rabbit
+    environment:
+      REDIS_HOST: "redis"
+      REDIS_PORT: "6379"
+      RABBIT_PASSWORD: "guest"
+      RABBIT_USER: "guest"
+      RABBIT_HOST: "rabbit"
+      RABBIT_PORT: "5672"
+
+  airmiles:
+    image: etansoclof/airmiles:1.01
+    depends_on:
+      - rabbit
+    environment:
+      REDIS_HOST: "redis"
+      REDIS_PORT: "6379"
+      RABBIT_PASSWORD: "guest"
+      RABBIT_USER: "guest"
+      RABBIT_HOST: "rabbit"
+      RABBIT_PORT: "5672"
+
+  gateway:
+    image: etansoclof/gateway:1.01
+    depends_on:
+      - rabbit
+    ports:
+      - "8000:8000"
+    environment:
+      RABBIT_PASSWORD: "guest"
+      RABBIT_USER: "guest"
+      RABBIT_HOST: "rabbit"
+      RABBIT_PORT: "5672"
+
+volumes:
+  redis-data:

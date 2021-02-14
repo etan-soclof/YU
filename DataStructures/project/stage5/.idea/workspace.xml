@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c7a8b155-8fb9-4d94-b4cd-65b719d3c2c6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/yu/cs/com1320/project/Utils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/yu/cs/com1320/project/stage5/impl/DocumentPersistenceManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/yu/cs/com1320/project/stage5/impl/DocumentPersistenceManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/edu/yu/cs/com1320/project/stage5/impl/DocumentAPITest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/edu/yu/cs/com1320/project/stage5/impl/DocumentImplTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/edu/yu/cs/com1320/project/stage5/impl/DocumentPersistenceManagerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/edu/yu/cs/com1320/project/stage5/impl/DocumentStoreAPITest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/edu/yu/cs/com1320/project/stage5/impl/DocumentStoreImplTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/edu/yu/cs/com1320/project/stage5/impl/MinHeapAPITest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/edu/yu/cs/com1320/project/stage5/impl/StackAPITest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/edu/yu/cs/com1320/project/stage5/impl/TestUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/edu/yu/cs/com1320/project/stage5/impl/TrieAPITest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/edu/yu/cs/com1320/project/stage5/impl/UndoTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../IntroToCompSci/hw8/edu/yu/cs/intro/bank/BankBrokerageTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../IntroToCompSci/hw8/edu/yu/cs/intro/bank/BankSavingsTest.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="1c5tabEQFhHYXJ3rT7duVPCNGmA" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="edu.yu.cs.com1320.project.stage5.impl" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/edu/yu/cs/com1320/project" />
+      <recent name="$PROJECT_DIR$/src/test/java" />
+      <recent name="$PROJECT_DIR$/src/test" />
+      <recent name="$PROJECT_DIR$/src/main/java/edu/yu/cs/com1320/project/stage5" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="edu.yu.cs.com1320.project.stage5" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="edu.yu.cs.com1320.project" />
+      <recent name="edu.yu.cs.com1320.project.stage5" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.edu.yu.cs.com1320.project.stage5.impl in stage5">
+    <configuration name="DocumentPersistenceManagerTest.stage5TestDeserialization" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="stage5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.yu.cs.com1320.project.stage5.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.yu.cs.com1320.project.stage5.impl" />
+      <option name="MAIN_CLASS_NAME" value="edu.yu.cs.com1320.project.stage5.impl.DocumentPersistenceManagerTest" />
+      <option name="METHOD_NAME" value="stage5TestDeserialization" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DocumentStoreImplTest.stage5PushToDiskViaMaxDocCount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="stage5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.yu.cs.com1320.project.stage5.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.yu.cs.com1320.project.stage5.impl" />
+      <option name="MAIN_CLASS_NAME" value="edu.yu.cs.com1320.project.stage5.impl.DocumentStoreImplTest" />
+      <option name="METHOD_NAME" value="stage5PushToDiskViaMaxDocCount" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DocumentStoreImplTest.stage5PushToDiskViaMaxDocCountViaUndoDelete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="stage5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.yu.cs.com1320.project.stage5.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.yu.cs.com1320.project.stage5.impl" />
+      <option name="MAIN_CLASS_NAME" value="edu.yu.cs.com1320.project.stage5.impl.DocumentStoreImplTest" />
+      <option name="METHOD_NAME" value="stage5PushToDiskViaMaxDocCountViaUndoDelete" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="edu.yu.cs.com1320.project.stage5.impl in stage5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="stage5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.yu.cs.com1320.project.stage5.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.yu.cs.com1320.project.stage5.impl" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Unittests in test" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="stage5" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/src/test&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.edu.yu.cs.com1320.project.stage5.impl in stage5" />
+        <item itemvalue="Python tests.Unittests in test" />
+        <item itemvalue="JUnit.DocumentStoreImplTest.stage5PushToDiskViaMaxDocCountViaUndoDelete" />
+        <item itemvalue="JUnit.DocumentStoreImplTest.stage5PushToDiskViaMaxDocCount" />
+        <item itemvalue="JUnit.DocumentPersistenceManagerTest.stage5TestDeserialization" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Docker" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c7a8b155-8fb9-4d94-b4cd-65b719d3c2c6" name="Default Changelist" comment="" />
+      <created>1589830346147</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589830346147</updated>
+      <workItem from="1589830350806" duration="47279000" />
+      <workItem from="1590345701927" duration="4196000" />
+      <workItem from="1590417148104" duration="1707000" />
+      <workItem from="1590703889358" duration="4739000" />
+      <workItem from="1590931241102" duration="2883000" />
+      <workItem from="1591018938397" duration="5000" />
+      <workItem from="1591206158434" duration="1107000" />
+      <workItem from="1591213587788" duration="627000" />
+      <workItem from="1591559665793" duration="6000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="0" y="23" width="613" height="777" key="#Unittests_in_test" timestamp="1591206288446">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="0" y="23" width="613" height="777" key="#Unittests_in_test/0.23.1280.777@0.23.1280.777" timestamp="1591206288446" />
+    <state x="443" y="116" key="#com.intellij.ide.util.MemberChooser" timestamp="1590103701417">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="443" y="116" key="#com.intellij.ide.util.MemberChooser/0.23.1280.777@0.23.1280.777" timestamp="1590103701417" />
+    <state x="370" y="147" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1590348898169">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="370" y="147" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1280.777@0.23.1280.777" timestamp="1590348898169" />
+    <state width="1218" height="191" key="GridCell.Tab.0.bottom" timestamp="1591396920175">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state width="1218" height="191" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1591396920175" />
+    <state width="1218" height="191" key="GridCell.Tab.0.center" timestamp="1591396920175">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state width="1218" height="191" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1591396920175" />
+    <state width="1218" height="191" key="GridCell.Tab.0.left" timestamp="1591396920174">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state width="1218" height="191" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1591396920174" />
+    <state width="1218" height="191" key="GridCell.Tab.0.right" timestamp="1591396920175">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state width="1218" height="191" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1591396920175" />
+    <state width="1218" height="237" key="GridCell.Tab.1.bottom" timestamp="1590712031164">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state width="1218" height="237" key="GridCell.Tab.1.bottom/0.23.1280.777@0.23.1280.777" timestamp="1590712031164" />
+    <state width="1218" height="237" key="GridCell.Tab.1.center" timestamp="1590712031163">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state width="1218" height="237" key="GridCell.Tab.1.center/0.23.1280.777@0.23.1280.777" timestamp="1590712031163" />
+    <state width="1218" height="237" key="GridCell.Tab.1.left" timestamp="1590712031162">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state width="1218" height="237" key="GridCell.Tab.1.left/0.23.1280.777@0.23.1280.777" timestamp="1590712031162" />
+    <state width="1218" height="237" key="GridCell.Tab.1.right" timestamp="1590712031164">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state width="1218" height="237" key="GridCell.Tab.1.right/0.23.1280.777@0.23.1280.777" timestamp="1590712031164" />
+    <state x="286" y="226" key="com.intellij.ide.util.TipDialog" timestamp="1591559666774">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="286" y="226" key="com.intellij.ide.util.TipDialog/0.23.1280.777@0.23.1280.777" timestamp="1591559666774" />
+    <state x="150" y="136" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1590171211991">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="150" y="136" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.23.1280.777@0.23.1280.777" timestamp="1590171211991" />
+    <state x="27" y="23" key="new project wizard" timestamp="1591212799114">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="27" y="23" key="new project wizard/0.23.1280.777@0.23.1280.777" timestamp="1591212799114" />
+    <state x="356" y="28" key="refactoring.ChangeSignatureDialog" timestamp="1590704670703">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="356" y="28" key="refactoring.ChangeSignatureDialog/0.23.1280.777@0.23.1280.777" timestamp="1590704670703" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/project/stage5/impl/UndoTest.java</url>
+          <line>269</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/project/stage5/impl/DocumentStoreImplTest.java</url>
+          <line>531</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/edu/yu/cs/com1320/project/stage5/impl/DocumentStoreImplTest.java</url>
+          <line>551</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/edu/yu/cs/com1320/project/stage5/impl/DocumentStoreImpl.java</url>
+          <line>687</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/edu/yu/cs/com1320/project/stage5/impl/DocumentStoreImpl.java</url>
+          <line>391</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/stage5$project_stage5_impl_in_stage5.ic" NAME="project.stage5.impl in stage5 Coverage Results" MODIFIED="1590085873085" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>project.stage5.impl.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/stage5$DocumentPersistenceManager.ic" NAME="DocumentPersistenceManager Coverage Results" MODIFIED="1590085923189" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.yu.cs.com1320.project.stage5.impl.*</FILTER>
+    </SUITE>
+  </component>
+</project>

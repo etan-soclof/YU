@@ -1,0 +1,26 @@
+apiVersion: autoscaling/v2beta2
+kind: HorizontalPodAutoscaler
+metadata:
+  name: airmiles
+  namespace: default
+spec:
+  scaleTargetRef:
+    apiVersion: apps/v1
+    kind: Deployment
+    name: airmiles
+  minReplicas: 1
+  maxReplicas: 10
+  metrics:
+  - type: Object
+    object:
+      metric:
+        name: requests_per_second
+      describedObject:
+        kind: Namespace
+        namespace: default
+        name: default
+        apiVersion: /v1
+      target:
+        type: AverageValue
+        averageValue: .003k
+
