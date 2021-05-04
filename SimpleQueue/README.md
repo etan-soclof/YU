@@ -52,8 +52,6 @@ dyn-010-145-025-162:SimpleQueue etansoclof$ curl 23.236.50.63:5000/get
 Number of tasks remaining: 9
 ```
 
-Note: There is a bug such that if the message queue is idle for 60 seconds, the flask application will disconnect from the queue. I did not have sufficient time to fix this bug.
-
 
 
 
