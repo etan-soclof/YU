@@ -2,7 +2,7 @@ import pika, sys, os
 import time
 
 def main():
-    connection = pika.BlockingConnection(pika.ConnectionParameters('rabbit'))
+    connection = pika.BlockingConnection(pika.ConnectionParameters('rabbit', heartbeat=600))
     channel = connection.channel()
     channel.queue_declare(queue='queue')
 

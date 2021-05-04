@@ -3,7 +3,7 @@ from flask import Flask
 
 app = Flask(__name__)
 
-connection = pika.BlockingConnection(pika.ConnectionParameters('rabbit'))
+connection = pika.BlockingConnection(pika.ConnectionParameters('rabbit', heartbeat=600))
 channel = connection.channel()
 
 channel.basic_qos(prefetch_count=1)

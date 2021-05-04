@@ -86,7 +86,7 @@ spec:
               value: "5672"
             - name: RABBIT_USER
               value: guest
-          image: etansoclof/q_gateway:2.0
+          image: etansoclof/q_gateway:5.0
           imagePullPolicy: ""
           name: gateway
           ports:
@@ -122,7 +122,7 @@ spec:
               value: "5672"
             - name: RABBIT_USER
               value: guest
-          image: etansoclof/q_process:2.0
+          image: etansoclof/q_process:5.0
           imagePullPolicy: ""
           name: process
       restartPolicy: Always
