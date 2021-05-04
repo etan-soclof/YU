@@ -15,12 +15,18 @@ This microservice architecture contains three services:
 3) processFromQ - this service accepts tasks from the queue, sleeps for 3 seconds, and repeats
 
 To deploy, run:
+
 '''
 soclof@cloudshell:~$ kubectl apply -f queue.yaml
+
 service/rabbit created
+
 deployment.apps/rabbit created
+
 service/gateway created
+
 deployment.apps/gateway created
+
 deployment.apps/process created
 '''
 
@@ -36,7 +42,9 @@ To find the ip address through which to access the application:
 
 '''
 soclof@cloudshell:~$ kubectl get service gateway
+
 NAME      TYPE           CLUSTER-IP   EXTERNAL-IP    PORT(S)          AGE
+
 gateway   LoadBalancer   10.8.0.118   23.236.50.63   5000:30865/TCP   77s
 '''
 
