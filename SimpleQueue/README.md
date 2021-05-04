@@ -28,7 +28,7 @@ The yaml file creates 3 deployments: gateway, process, and rabbit. It also creat
 
 The yaml file pulls the docker images from my docker hub. The docker containers can also be built from the dockerfiles in the repositories.
 
-I personally deployed the services on GKE. 
+I personally deployed the services on a GKE cluster with default settings.
 
 To find the ip address through which to access the application:
 
@@ -38,11 +38,15 @@ NAME      TYPE           CLUSTER-IP   EXTERNAL-IP    PORT(S)          AGE
 gateway   LoadBalancer   10.8.0.118   23.236.50.63   5000:30865/TCP   77s
 ```
 
-In the above example, the application is running at 23.236.50.63:5000.
+In the above example, the application is running at `23.236.50.63:5000`.
 
 To add a task to the queue: `23.236.50.63:5000/`
+![Screenshot](SimpleQueue/images/add.png)
 
-To check the number of tasks remaining in the queue: `23.236.50.63:5000/get`
+To get the number of tasks remaining in the queue: `23.236.50.63:5000/get`
+![Screenshot](SimpleQueue/images/get.png)
+
+Note: There is a bug such that if the message queue is idle for 60 seconds, the flask application will disconnect from the queue. I did not have sufficient time to fix this bug.
 
 
 
