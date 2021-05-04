@@ -41,10 +41,16 @@ gateway   LoadBalancer   10.8.0.118   23.236.50.63   5000:30865/TCP   77s
 In the above example, the application is running at `23.236.50.63:5000`.
 
 To add a task to the queue: `23.236.50.63:5000/`
-![Screenshot](images/add.png)
+```
+dyn-010-145-025-162:SimpleQueue etansoclof$ curl 23.236.50.63:5000
+One task added to queue
+```
 
 To get the number of tasks remaining in the queue: `23.236.50.63:5000/get`
-![Screenshot](images/get.png)
+```
+dyn-010-145-025-162:SimpleQueue etansoclof$ curl 23.236.50.63:5000/get
+Number of tasks remaining: 9
+```
 
 Note: There is a bug such that if the message queue is idle for 60 seconds, the flask application will disconnect from the queue. I did not have sufficient time to fix this bug.
 
