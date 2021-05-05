@@ -9,6 +9,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY run.sh ./
 COPY gateway.py ./
+COPY templates ./templates
 
 RUN chmod +x ./run.sh
 

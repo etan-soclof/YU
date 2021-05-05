@@ -7,7 +7,7 @@ This microservice architecture contains three services:
 		- '/' - this adds a task to the queue
 		- '/get' - this returns the number of tasks remaining in the queue
 
-2) rabbitmq service
+2) rabbitmq service - the official docker container
 
 3) processFromQ - this service accepts tasks from the queue, sleeps for 3 seconds, and repeats
 
@@ -28,7 +28,7 @@ The yaml file creates 3 deployments: gateway, process, and rabbit. It also creat
 
 The yaml file pulls the docker images from my docker hub. The docker containers can also be built from the dockerfiles in the repositories.
 
-I personally deployed the services on a GKE cluster with default settings.
+I personally deployed the services on a GKE cluster on a cluster with default settings.
 
 To find the ip address through which to access the application:
 
@@ -40,17 +40,8 @@ gateway   LoadBalancer   10.8.0.118   23.236.50.63   5000:30865/TCP   77s
 
 In the above example, the application is running at `23.236.50.63:5000`.
 
-To add a task to the queue: `23.236.50.63:5000/`
-```
-dyn-010-145-025-162:SimpleQueue etansoclof$ curl 23.236.50.63:5000
-One task added to queue
-```
+Open `23.236.50.63:5000/` in a browser.
 
-To get the number of tasks remaining in the queue: `23.236.50.63:5000/get`
-```
-dyn-010-145-025-162:SimpleQueue etansoclof$ curl 23.236.50.63:5000/get
-Number of tasks remaining: 9
-```
 
 
 
